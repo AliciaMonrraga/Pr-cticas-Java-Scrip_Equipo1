@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	content: "";
+	width: 100%;
+	main-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background-image: radial-gradient(circle at -18.3% 68.3%, #e5deff 0, #cfcafa 25%, #b5b5f2 50%, #98a1eb 75%, #788fe4 100%);
+
+	opacity: 1.7;
+	z-index: -1;
+}
+form{
+	color: #060492;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}

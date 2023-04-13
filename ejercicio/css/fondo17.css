@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	content: "";
+	width: 100%;
+	main-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background-image: radial-gradient(circle at 27.91% 44.08%, #faaa8d 0, #f49c87 16.67%, #e9877b 33.33%, #d86c6c 50%, #c6505f 66.67%, #b83a59 83.33%, #ae2a5a 100%);
+	
+	opacity: 1.7;
+	z-index: -1;
+}
+p{
+	color: #060492;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+
+	

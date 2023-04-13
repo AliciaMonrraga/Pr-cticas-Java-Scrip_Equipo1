@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	content: "";
+	width: 100%;
+	main-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+background-image: radial-gradient(circle at 50% -20.71%, #abd9f4 0, #b0d8f6 6.25%, #b5d6f8 12.5%, #bbd5f8 18.75%, #c1d3f8 25%, #c8d2f8 31.25%, #ced0f6 37.5%, #d4cff4 43.75%, #dacdf2 50%, #e0cbef 56.25%, #e5caec 62.5%, #eac9e8 68.75%, #eec8e3 75%, #f2c7df 81.25%, #f5c6da 87.5%, #f8c6d5 93.75%, #f9c6d0 100%);
+	
+	opacity: 1.7;
+	z-index: -1;
+}
+ul{
+	color: #060492;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+
+li{
+	color: #000000;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}

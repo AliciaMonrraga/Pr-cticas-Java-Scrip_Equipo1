@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	content: "";
+	width: 100%;
+	main-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+background-image: radial-gradient(circle at 50% -20.71%, #fffff3 0, #ffffdf 16.67%, #fffeca 33.33%, #f2f2b5 50%, #dce7a1 66.67%, #c6dd91 83.33%, #aed484 100%);
+
+	opacity: 1.7;
+	z-index: -1;
+}
+form{
+	color: #430263;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+
+select{
+	color: #430263;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+
+p{
+	color: #430263;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+
+th{
+	color: #000000;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+
