@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	min-height: 100vh;
+	background-image: url("img/gato1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	content: "";
+	width: 100%;
+	main-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background-image: radial-gradient(circle at 50% -20.71%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%);
+
+	opacity: 1.7;
+	z-index: -1;
+}
+h1{
+	color: #430263;
+}
+
+
+* {
+	font-family: "Source Code Pro", sans-serif;
+}
+section{
+	border: 20px solid #4CABFF;
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px; 
+	max-width: 700px;   
+}
+
+article .date{
+	margin-top: 0;
+	color: #67FF4C;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+article{
+	padding: 20px 0;
+}
+article p {
+	text-align: justify;
+}
+
+article:not(:last-of-type)  {
+	border-bottom: 1px solid #EF4CFF;
+}
+
+article p:first-of-type{
+	border-left: 5px solid #FFDE4C;
+	padding-left: 5px;
+}
